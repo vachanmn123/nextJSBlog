@@ -14,6 +14,8 @@ function MyApp({ Component, pageProps }) {
       }}
     >
       <Head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#800080" />
         <title>The Vachan MN Blog</title>
         <meta name="description" content="The Vachan MN Blog" />
         <meta
